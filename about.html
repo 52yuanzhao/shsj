@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>关于我们</title>
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<!-- Global CSS for the page and tiles -->
+  		<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css"/>
+  		<!-- //Global CSS for the page and tiles -->
+		<!---start-click-drop-down-menu----->
+		<script src="js/jquery.min.js"></script>
+        <!----start-dropdown--->
+         <script type="text/javascript">
+			var $ = jQuery.noConflict();
+				$(function() {
+					$('#activator').click(function(){
+						$('#box').animate({'top':'0px'},500);
+					});
+					$('#boxclose').click(function(){
+					$('#box').animate({'top':'-700px'},500);
+					});
+				});
+				$(document).ready(function(){
+				//Hide (Collapse) the toggle containers on load
+				$(".toggle_container").hide(); 
+				//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+				$(".trigger").click(function(){
+					$(this).toggleClass("active").next().slideToggle("slow");
+						return false; //Prevent the browser jump to the link anchor
+				});
+									
+			});
+		</script>
+        <!----//End-dropdown--->
+		<!---//End-click-drop-down-menu----->
+	
+	</head>		
+	<body>
+		<!---start-wrap---->
+			<!---start-header---->
+			<div class="header">
+				<div class="wrap">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" title="pinbal" /></a>
+				</div>
+				<div class="nav-icon">
+					 <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				 <div class="box" id="box">
+					 <div class="box_content">        					                         
+						<div class="box_content_center">
+						 	<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a href="index.html"><span>home</span></a></li>
+										<li><a href="about.html"><span>About</span></a></li>
+										<li><a href="contact.html"><span>Contact</span></a></li>
+										<div class="clear"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+				<div class="top-searchbar">
+					<form>
+						<input type="text" /><input type="submit" value="" />
+					</form>
+				</div>
+				<!--<div class="userinfo">
+					<div class="user">
+						<ul>
+							<li><a href="#"><img src="images/user-pic.png" title="user-name" /><span>Ipsum</span></a></li>
+						</ul>
+					</div>
+				</div>-->
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<!---//End-header---->
+		<!---start-content---->
+		<div class="content">
+        	
+    <!--welcome start here-->
+<div class="wecome" id="about">
+	<div class="container">
+		<div class="wecome-main">
+			 <h3>中国那么大，我要去走走</h3>
+			 <p>想体验各地民俗		无奈春节那么短		不要失落，关注我们		带你领略你看不到的中国</p>
+			 <a href="index.html">Follow  me</a>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+    
+        	<!--team start here-->
+<div class="team-mem" id="team">
+		<div class="container">
+			   <div class="team-main">
+					<div class="team-top">
+							<h3>团队成员</h3>
+					</div>
+						<ul class="ch-grid">
+					<li>
+						<a href="OutTeam/Judy.html"><div class="ch-item ch-img-1">
+							<div class="ch-info">
+								<h3>王珂心</h3>
+								<p>队&nbsp;&nbsp;长</p>
+							</div>
+						</div></a>
+					</li>
+					<li>
+						<a href="OutTeam/Judy.html"><div class="ch-item ch-img-2">
+							<div class="ch-info">
+								<h3>吴清丽</h3>
+								<p>公&nbsp;众&nbsp;号</p>
+							</div>
+						</div></a>
+					</li>
+					<li>
+						<a href="OutTeam/Judy.html"><div class="ch-item ch-img-3">
+							<div class="ch-info">
+								<h3>马樱银</h3>
+								<p>微&nbsp;博</p>
+							</div>
+						</div></a>
+					</li>
+					<li>
+						<a href="OutTeam/Judy.html"><div class="ch-item ch-img-4">
+							<div class="ch-info">
+								<h3>侯仲尼</h3>
+								<p>文&nbsp;&nbsp;章</p>
+							</div>
+						</div></a>
+					</li>
+                    
+				</ul>
+                <ul class="ch-grid">
+					<li>
+						<a href="OutTeam/Judy.html"><div class="ch-item ch-img-5">
+							<div class="ch-info">
+								<h3>王瑶</h3>
+								<p>推&nbsp;&nbsp;送</p>
+							</div>
+						</div></a>
+					</li>
+					<li>
+						<a href="OutTeam/Judy.html"><div class="ch-item ch-img-6">
+							<div class="ch-info">
+								<h3>周鸿</h3>
+								<p>记&nbsp;&nbsp;实</p>
+							</div>
+						</div></a>
+					</li>
+					<li>
+						<a href="OutTeam/Judy.html"><div class="ch-item ch-img-7">
+							<div class="ch-info">
+								<h3>曹坤</h3>
+								<p>投&nbsp;票</p>
+							</div>
+						</div></a>
+					</li>
+					<li>
+						<a href="OutTeam/Judy.html"><div class="ch-item ch-img-8">
+							<div class="ch-info">
+								<h3>刘婷婷</h3>
+								<p>网&nbsp;&nbsp;页</p>
+							</div>
+						</div></a>
+					</li>
+                    
+				</ul>
+					<div class="clearfix"> </div>
+			</div>
+	  </div>
+</div>
+		</div>
+		<!----start-footer--->
+		<div class="footer">
+			<p>山东大学“美色春节”社会实践队</p>
+		</div>
+		<!----//End-footer--->
+		<!---//End-wrap---->
+
+</body>
+</html>
